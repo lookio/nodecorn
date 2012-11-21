@@ -17,6 +17,6 @@
        "url": "http://github.com/lookio/nodecorn.git" 
    },
    "dependencies": {
-      "protobuf": "0.8.9"
+      "protobuf": "0.8.6"
    }
 }
