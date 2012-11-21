@@ -1,0 +1,22 @@
+ message PopcornMessage {
+ 	enum Severity {
+ 		EMERGENCY = 0;
+ 		ALERT = 1;
+ 		CRITICAL = 2;
+ 		ERROR = 3;
+ 		WARNING = 4;
+ 		NOTICE = 5;
+ 		INFO = 6;
+ 		DEBUG = 7;
+ 	}
+
+ 	required string node = 1;
+ 	required string node_role = 2;
+ 	required string node_version = 3;
+ 	required Severity severity = 4;
+ 	required string message = 5;
+ 	required string module = 6;
+ 	required string function = 7;
+ 	required string line = 8;
+ 	required string pid = 9;
+ }

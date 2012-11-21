@@ -1,0 +1,22 @@
+{
+   "name": "nodecorn",
+   "version": "0.0.1",
+   "main": "lib/nodecorn.js",
+   "description": "Tiny module for logging to a popcorn backend",
+   "keywords": [
+       "protobuf",
+       "popcorn",
+       "logging"
+   ],
+   "author": {
+       "name": "Joseph Toscano",
+       "email": "jtoscano42@gmail.com"
+   }, 
+   "repository": {
+       "type": "git",
+       "url": "http://github.com/lookio/nodecorn.git" 
+   },
+   "dependencies": {
+      "protobuf": "0.8.9"
+   }
+}
